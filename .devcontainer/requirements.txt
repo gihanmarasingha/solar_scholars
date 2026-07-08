@@ -1,0 +1,7 @@
+# Course libraries. Import names in () where they differ from the package name.
+# scipy.ndimage and scipy.optimize are submodules of scipy - no separate install.
+numpy==2.2.6
+matplotlib==3.10.9
+Pillow==12.3.0          # import PIL
+scipy==1.15.3           # provides scipy.ndimage and scipy.optimize
+scikit-image==0.25.2    # import skimage
